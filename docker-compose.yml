@@ -9,8 +9,6 @@ services:
       - .env
     depends_on:
       - postgres
-    volumes:
-      - .:/app
     command: npm run server
   
   postgres:
